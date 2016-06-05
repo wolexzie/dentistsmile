@@ -8,8 +8,8 @@ logo_url: svg/min/logo.svg
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: Dw Cleaning
+    hero_description: Low Rates, Free Estimate, Custom Cleaning Solution
 
 # Contact form
 api_token: # Enter API token here
