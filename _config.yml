@@ -1,14 +1,14 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: DW Cleaning| Office, Home and Construction Cleaning
+description: "The best possible cleaning service"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: img/logo.png
 
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: Dw Cleaning
+    hero_title: DW Cleaning
     hero_description: Low Rates, Free Estimate, Custom Cleaning Solution
 
 # Contact form
@@ -16,15 +16,15 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: +234-802-386-8621
+    office: +234-706-906-3761
+    email: dwcleaningservice@outlook.com
+    address: Suite 10, Goes Plaza Ifako, Ikeja - Lagos
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
+monday_friday: 6:00 – 22:00
+saturday: 6:00 – 22:00
+sunday: 7:00 – 22:00
 
 # Testimonials
 testimonials:
@@ -33,19 +33,19 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: Ikeja, Lagos, Nigeria
     address_details: svg/min/logo.svg
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
+facebook: https://www.facebook.com/dwcleaningservices/
+twitter: https://twitter.com/dw_janitorial
 instagram: http://instagram.com
 youtube: http://youtube.com
 skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2015 - All rights reserved
 
 # Build settings
 markdown: kramdown

@@ -1,8 +1,11 @@
 /* ABOUT
 -------------------------------------------------*/
 .about {
+background: #e3dede;
+
     @extend %space;
     .media {
         margin-bottom: $space;
     }
+
 }

@@ -17,7 +17,8 @@ layout: default
         
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Request a Quote</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+            <form action="https://formspree.io/wolexzie@gmail.com" 
+            method="post">
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Name" required>
                 </div>
@@ -51,7 +52,7 @@ layout: default
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
+        <h3>Working Hours</h3>
         <table>
             <tbody>
                 <tr>
@@ -80,14 +81,15 @@ layout: default
 <!-- End 3 columns -->
 
 <!-- Start About -->
-<div id="about" class="about">
+<div id="about" class="about" style="
+    background-color: #f4f7f;"> 
     <div class="container-fluid">
         <h2 class="section-title">About Us</h2>
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <h3>Welcome to DW Cleaning Services</h3>
+                <p>We provide complete office cleaning and janitorial building maintenance services, priding ourselves on the high quality of our cleaning service</p>
 
                 <div class="media">
                     <div class="media-left">
@@ -96,7 +98,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>When looking for a cleaning service, you can have the confidence that will meet all of your commercial janitorial service and office cleaning needs</p>
                     </div>
                 </div>
 
@@ -107,7 +109,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>We offer basic packages for general cleaning and more comprehensive packages for specialized office cleaning jobs, such as carpet cleaning, floor waxing, stripping and sealing</p>
                     </div>
                 </div>
 
@@ -118,7 +120,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>We know that a daily office cleaning might not be exactly what your business needs, so we offer NYC cleaning services on a weekly, bi-weekly, and monthly schedule to best suit your needs</p>
+                        <p>We know that a daily office cleaning might not be exactly what your business needs, so we offer cleaning services on a weekly, bi-weekly, and monthly schedule to best suit your needs</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +135,7 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Treatments</h2>
+        <h2 class="section-title">Services</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}
@@ -151,6 +153,7 @@ layout: default
 <!-- End Treatments -->
 
 <!-- Start Our team -->
+<!--
 <div id="team" class="team"> 
     <h2 class="section-title">Our Team</h2> 
     <div id="team-carousel">
@@ -170,6 +173,7 @@ layout: default
     {% endfor %}
     </div>
 </div>
+-->
 <!-- End Our team -->
 
 <!-- Start Testimonials -->
@@ -216,5 +220,24 @@ layout: default
 <!-- End Gallery -->
 
 <!-- Start Map -->
+<!--
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+-->
 <!-- End Map -->
+
+
+<!-- Request a Quote -->
+
+<div class="three-shade-col">
+    <div id="location" class="col-sm-12">
+        <h3>Get An Estimate Today - We look forward to serving your every need</h3>
+            <p>Whether you are a large institution, a small business, a school, a hotel, 
+            or anything in between, chances are that we have provided cleaning and janitorial services 
+            to your type of organization. We look forward to discussing our high quality of service with 
+            you, call us today at (234) 8023868621 or click the button below to send us a message.</p>
+
+            <a id="footer-button" class="btn btn-info" href="#top">Request a Quote</a>
+    </div>
+
+</div>
+<!-- End 3 columns -->
