@@ -50,15 +50,15 @@ copyright: © 2015 - All rights reserved
 # Build settings
 markdown: kramdown
 
-exclude: [
-    package.json,
-    Gruntfile.js,
-    node_modules,
-    .sass-cache,
-    Gemfile,
-    Gemfile.lock,
-    .gitignore
-]
+#exclude: [
+#   package.json,
+#  Gruntfile.js,
+#    node_modules,
+#    .sass-cache,
+#    Gemfile,
+#    Gemfile.lock,
+#    .gitignore
+#]
 
 # Theme Settings
 analytics: 
