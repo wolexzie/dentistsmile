@@ -1,8 +1,8 @@
 # Site settings
 title: DW Cleaning| Office, Home and Construction Cleaning
 description: "The best possible cleaning service"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+baseurl: "dwcleaning" # the subpath of your site, e.g. /blog
+url: "dwcleaning.com.ng" # the name of your domain
 logo_url: img/logo.png
 
 # Hero
